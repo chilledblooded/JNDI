@@ -46,6 +46,8 @@ public class LdapOperationMenu {
 	 */
 	public static void main(String[] args) {
 		int choice;
+		WelcomeMessage out=new WelcomeMessage();
+		out.message();
 		LdapUtility operations= new LdapUtility();
 		while((choice=menu())!=0)
 		{
