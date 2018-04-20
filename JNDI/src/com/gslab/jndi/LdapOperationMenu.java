@@ -95,6 +95,7 @@ public class LdapOperationMenu {
 			//scanner resource is closed here
 			sc.close();
 			System.out.println("Thank you...Have a nice day!!!!");
+			GoodByeMsg.goodBye();
 		}
 	}
 }
